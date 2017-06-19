@@ -1,4 +1,53 @@
 body {
 background: lightblue;
+font-family: helvetica;
+text-align: justify;
+}
 
+h1{
+  padding: 10px;
+  padding-top: 10px;;
+  border-style: solid;
+  text-align: center;
+  background: #8EBAFF;
+
+}
+
+h2{
+  text-align: center
+}
+
+
+h3{
+font-family: helvetica;
+}
+
+footer{
+  font-size: 15px;
+}
+
+th{
+  background: yellow;
+}
+tr{
+  background: white;
+}
+
+img.resize {
+  max-width:90%;
+  max-height:90%;
+}
+
+footer{
+  text-align: center;
+}
+
+@media (min-width: 600px){
+p{
+  font-size: 15px;
+  line-height: 30px;
+}
+}
+
+@media (orientation: landscape) {
 }
